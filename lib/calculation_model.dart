@@ -22,3 +22,13 @@ class OperatorPressed extends CalculationEvent {
   @override
   List<Object> get props => [operator];
 }
+
+class CalculateResult extends CalculationEvent {
+  @override
+  List<Object> get props => [];
+}
+
+class ClearCalculation extends CalculationEvent {
+  @override
+  List<Object> get props => [];
+}
