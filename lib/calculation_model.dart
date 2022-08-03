@@ -13,3 +13,12 @@ class NumberPressed extends CalculationEvent {
   @override
   List<Object> get props => [number];
 }
+
+class OperatorPressed extends CalculationEvent {
+  final String operator;
+
+  const OperatorPressed({required this.operator});
+
+  @override
+  List<Object> get props => [operator];
+}
